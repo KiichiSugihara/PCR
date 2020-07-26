@@ -19,8 +19,22 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/choice_gu"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.817"
+        app:layout_constraintVertical_bias="0.659"
         app:srcCompat="@drawable/janken_choki" />
+
+    <ImageButton
+        android:id="@+id/choice_pa"
+        style="@style/choice_style"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/choice_pa"
+        android:onClick="clickPCRButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/choice_choki"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.659"
+        app:srcCompat="@drawable/janken_pa" />
 
     <ImageButton
         android:id="@+id/choice_gu"
@@ -34,22 +48,8 @@
         app:layout_constraintHorizontal_chainStyle="spread"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.817"
+        app:layout_constraintVertical_bias="0.659"
         app:srcCompat="@drawable/janken_gu" />
-
-    <ImageButton
-        android:id="@+id/choice_pa"
-        style="@style/choice_style"
-        android:background="@android:color/transparent"
-        android:contentDescription="@string/choice_pa"
-        android:onClick="clickPCRButton"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/choice_choki"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.817"
-        app:srcCompat="@drawable/janken_pa" />
 
     <TextView
         android:id="@+id/title_text"
@@ -77,9 +77,10 @@
         android:textSize="@dimen/cpation_text_size"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/title_text"
-        app:layout_constraintVertical_bias="0.36" />
+        app:layout_constraintVertical_bias="0.111" />
 
 
     <!--TODO:タイトルスタイルの変更-->
