@@ -9,6 +9,7 @@
 
     <TextView
         android:id="@+id/result_title"
+        style="@style/RPSTitleText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/roboto"

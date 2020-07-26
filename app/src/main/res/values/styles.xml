@@ -14,4 +14,13 @@
         <item name="android:scaleType">fitCenter</item>
     </style>
 
+    <style name="RPSTitleText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Large</item>
+        <item name="android:textColor">@color/title_color</item>
+        <item name="android:textSize">@dimen/title_text_size</item>
+    </style>
+
 </resources>
