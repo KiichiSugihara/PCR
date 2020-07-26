@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
     }
-    fun clickPCRButton(view: View?){
+    fun clickChoiceButton(view: View?){
 //        ResultActivity作成
         val intent = Intent(this,ResultActivity::class.java)
         intent.putExtra("MY_HAND",view?.id)
