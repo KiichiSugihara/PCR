@@ -9,4 +9,5 @@
     <string name="enemy_result">Enemy Result</string>
     <string name="again_button_text">もう一度</string>
     <string name="background_image">background_image</string>
+    <string name="intro_text">好きな手を１つ選んでね</string>
 </resources>

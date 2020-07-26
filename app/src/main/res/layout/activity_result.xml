@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background_color"
     tools:context=".ResultActivity">
 
     <TextView
@@ -12,6 +13,7 @@
         android:layout_height="wrap_content"
         android:text="@string/result_title"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,14 +23,14 @@
     <ImageView
         android:id="@+id/my_result"
         style="@style/choice_style"
+        android:contentDescription="@string/my_result"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.479"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.342"
-        app:srcCompat="@drawable/janken_gu"
-        android:contentDescription="@string/my_result" />
+        app:layout_constraintVertical_bias="0.738"
+        app:srcCompat="@drawable/janken_gu" />
 
     <ImageView
         android:id="@+id/enemy_result"
@@ -36,17 +38,19 @@
         android:contentDescription="@string/enemy_result"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.733"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.721"
+        app:layout_constraintVertical_bias="0.312"
         app:srcCompat="@drawable/janken_pa" />
 
     <Button
         android:id="@+id/again_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
         android:text="@string/again_button_text"
+        android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
