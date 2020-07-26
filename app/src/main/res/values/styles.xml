@@ -7,4 +7,10 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="choice_style">
+        <item name="android:layout_width">@dimen/choice_image_width</item>
+        <item name="android:layout_height">@dimen/choice_image_height</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
 </resources>
