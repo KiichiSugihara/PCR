@@ -9,7 +9,7 @@
     <ImageButton
         android:id="@+id/choice_gu"
         style="@style/choice_style"
-        android:contentDescription="Choice Gu"
+        android:contentDescription="@string/choice_gu"
         app:srcCompat="@drawable/gu"
         tools:layout_editor_absoluteX="43dp"
         tools:layout_editor_absoluteY="339dp" />
@@ -17,8 +17,16 @@
     <ImageButton
         android:id="@+id/choice_choki"
         style="@style/choice_style"
-        android:contentDescription="Choice Choki"
+        android:contentDescription="@string/choice_choki"
         app:srcCompat="@drawable/choki"
         tools:layout_editor_absoluteX="178dp"
+        tools:layout_editor_absoluteY="339dp" />
+
+    <ImageButton
+        android:id="@+id/choice_pa"
+        style="@style/choice_style"
+        android:contentDescription="@string/choice_pa"
+        app:srcCompat="@drawable/pa"
+        tools:layout_editor_absoluteX="295dp"
         tools:layout_editor_absoluteY="339dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
