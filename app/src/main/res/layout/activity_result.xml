@@ -31,13 +31,14 @@
         app:layout_constraintHorizontal_bias="0.479"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.638"
+        app:layout_constraintVertical_bias="0.606"
         app:srcCompat="@drawable/janken_gu" />
 
     <Button
         android:id="@+id/again_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:width="@dimen/bottom_button_width"
         android:background="@android:color/darker_gray"
         android:text="@string/again_button_text"
         android:textColor="@android:color/white"
@@ -82,8 +83,7 @@
         android:textSize="@dimen/cpation_text_size"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.81" />
+        app:layout_constraintVertical_bias="0.759" />
 </androidx.constraintlayout.widget.ConstraintLayout>

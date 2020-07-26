@@ -4,4 +4,5 @@
     <dimen name="choice_image_height">100dp</dimen>
     <dimen name="title_text_size">36sp</dimen>
     <dimen name="cpation_text_size">24sp</dimen>
+    <dimen name="bottom_button_width">280dp</dimen>
 </resources>
