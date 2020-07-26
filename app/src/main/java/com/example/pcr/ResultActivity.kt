@@ -14,6 +14,7 @@ class ResultActivity : AppCompatActivity() {
         setContentView(R.layout.activity_result)
 //        TODO:勝ち負けあいこ時の演出
 //        TODO:じゃんけんのクラスわける
+//        TODO:bindingで管理
 
 
 //        intentから渡された値をmyResultへ渡して表示を変える

@@ -55,7 +55,7 @@
         android:id="@+id/title_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/text_bacground_color"
+        android:background="@android:color/transparent"
         android:text="@string/title_text"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="@color/title_color"
@@ -65,9 +65,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.138" />
+
+
     <!--TODO:タイトルスタイルの変更-->
-<!--    TODO:captionの追加-->
-<!--    TODO:背景デザインの変更-->
+    <!--    TODO:captionの追加-->
+    <!--    TODO:背景デザインの変更-->
     <!--    TODO: 選択肢の配置調整　指の丁度いい感-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
