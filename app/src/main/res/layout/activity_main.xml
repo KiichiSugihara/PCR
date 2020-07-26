@@ -12,35 +12,38 @@
         android:id="@+id/choice_gu"
         style="@style/choice_style"
         android:layout_marginTop="324dp"
+        android:background="@android:color/transparent"
         android:contentDescription="@string/choice_gu"
         app:layout_constraintEnd_toStartOf="@+id/choice_choki"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintHorizontal_chainStyle="spread"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/title_text"
-        app:srcCompat="@drawable/gu" />
+        app:srcCompat="@drawable/janken_gu" />
 
     <ImageButton
         android:id="@+id/choice_choki"
         style="@style/choice_style"
         android:layout_marginTop="324dp"
+        android:background="@android:color/transparent"
         android:contentDescription="@string/choice_choki"
         app:layout_constraintEnd_toStartOf="@+id/choice_pa"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/choice_gu"
         app:layout_constraintTop_toBottomOf="@+id/title_text"
-        app:srcCompat="@drawable/choki" />
+        app:srcCompat="@drawable/janken_choki" />
 
     <ImageButton
         android:id="@+id/choice_pa"
         style="@style/choice_style"
         android:layout_marginTop="324dp"
+        android:background="@android:color/transparent"
         android:contentDescription="@string/choice_pa"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/choice_choki"
         app:layout_constraintTop_toBottomOf="@+id/title_text"
-        app:srcCompat="@drawable/pa" />
+        app:srcCompat="@drawable/janken_pa" />
 
     <TextView
         android:id="@+id/title_text"
@@ -58,7 +61,6 @@
 <!--TODO:タイトルスタイルの変更-->
 <!--    TODO:captionの追加-->
 <!--    TODO:背景デザインの変更-->
-    <!--TODO: 選択肢画像の変更-->
     <!--    TODO: 選択肢の配置調整　指の丁度いい感-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
