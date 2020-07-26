@@ -55,5 +55,10 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+<!--TODO:タイトルスタイルの変更-->
+<!--    TODO:captionの追加-->
+<!--    TODO:背景デザインの変更-->
+    <!--TODO: 選択肢画像の変更-->
+    <!--    TODO: 選択肢の配置調整　指の丁度いい感-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
