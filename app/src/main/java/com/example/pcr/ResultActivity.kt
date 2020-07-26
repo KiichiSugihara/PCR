@@ -15,6 +15,7 @@ class ResultActivity : AppCompatActivity() {
 //        TODO:勝ち負けあいこ時の演出
 //        TODO:じゃんけんのクラスわける
 
+
 //        intentから渡された値をmyResultへ渡して表示を変える
         when(intent.getIntExtra("MY_HAND",0)){
             R.id.choice_gu -> my_result.setImageResource(R.drawable.janken_gu)
@@ -27,6 +28,8 @@ class ResultActivity : AppCompatActivity() {
             choki ->enemy_result.setImageResource(R.drawable.janken_choki)
             pa ->enemy_result.setImageResource(R.drawable.janken_pa)
         }
+        //      もう一度ボタンにfinishメソッド追加
+        again_button.setOnClickListener{finish()}
 
     }
 }
