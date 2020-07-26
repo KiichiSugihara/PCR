@@ -7,4 +7,5 @@
     <string name="result_title">じゃんけん結果</string>
     <string name="my_result">My Result</string>
     <string name="enemy_result">Enemy Result</string>
+    <string name="again_button_text">もう一度</string>
 </resources>
