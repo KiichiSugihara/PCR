@@ -8,8 +8,17 @@
 
     <ImageButton
         android:id="@+id/choice_gu"
+        style="@style/choice_style"
+        android:contentDescription="Choice Gu"
         app:srcCompat="@drawable/gu"
         tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="339dp"
-        style="@style/choice_style" />
+        tools:layout_editor_absoluteY="339dp" />
+
+    <ImageButton
+        android:id="@+id/choice_choki"
+        style="@style/choice_style"
+        android:contentDescription="Choice Choki"
+        app:srcCompat="@drawable/choki"
+        tools:layout_editor_absoluteX="178dp"
+        tools:layout_editor_absoluteY="339dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
