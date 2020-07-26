@@ -74,7 +74,7 @@
         android:layout_marginTop="108dp"
         android:text="@string/intro_text"
         android:textColor="@android:color/white"
-        android:textSize="24sp"
+        android:textSize="@dimen/cpation_text_size"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

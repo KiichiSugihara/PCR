@@ -11,4 +11,5 @@
     <string name="background_image">background_image</string>
     <string name="intro_text">好きな手を１つ選んでね</string>
     <string name="enemy_image">Enemy Image</string>
+    <string name="result_caption">Result Caption</string>
 </resources>
