@@ -2,4 +2,5 @@
 <resources>
     <dimen name="choice_image_width">100dp</dimen>
     <dimen name="choice_image_height">100dp</dimen>
+    <dimen name="title_text_size">36sp</dimen>
 </resources>

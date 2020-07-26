@@ -59,6 +59,7 @@
         android:text="@string/title_text"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="@color/title_color"
+        android:textSize="@dimen/title_text_size"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -73,12 +74,12 @@
         android:layout_marginTop="108dp"
         android:text="@string/intro_text"
         android:textColor="@android:color/white"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/title_text"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.36" />
 
 
     <!--TODO:タイトルスタイルの変更-->
