@@ -15,8 +15,6 @@ class ResultActivity : AppCompatActivity() {
         var myHand:Int=0
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_result)
-//        TODO:じゃんけんのクラスわける
-
 
 //        intentから渡された値をmyResultへ渡して表示を変える
         when(intent.getIntExtra("MY_HAND",0)){
@@ -42,14 +40,17 @@ class ResultActivity : AppCompatActivity() {
         }
         //  勝ち負けあいこ時の演出
         when ((enemyHand - myHand +3 )%3){
-            0 ->result_caption.setText(R.string.result_caption_draw)
-            1 ->result_caption.setText(R.string.result_caption_win)
-            2 ->result_caption.setText(R.string.result_caption_lose)
+            0 ->{
+                result_caption.setText(R.string.result_caption_draw)
+            }
+            1 ->{result_caption.setText(R.string.result_caption_win)
+            }
+            2 ->{result_caption.setText(R.string.result_caption_lose)
+            }
         }
         //      もう一度ボタンを押すとintentにデータ渡して、Mainに移動
         again_button.setOnClickListener(){
         val intent = Intent(this,MainActivity::class.java)
-        intent.putExtra("RESULT",it?.id)
         startActivity(intent)
     }
 
