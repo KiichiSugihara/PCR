@@ -71,6 +71,20 @@
         app:layout_constraintVertical_bias="0.318"
         style="@style/RPSSubText" />
 
+    <TextView
+        android:id="@+id/score_text"
+        style="@style/RPSTitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/score_text"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.274" />
+
 
     <!--TODO:タイトルスタイルの変更-->
     <!--    TODO:captionの追加-->

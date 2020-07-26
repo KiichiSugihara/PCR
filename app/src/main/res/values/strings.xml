@@ -15,4 +15,5 @@
     <string name="result_caption_win">勝利！！</string>
     <string name="result_caption_lose">負け...</string>
     <string name="result_caption_draw">あいこ</string>
+    <string name="score_text">スコア 勝ち:0 負け:0 あいこ:0</string>
 </resources>
