@@ -9,24 +9,49 @@
     <ImageButton
         android:id="@+id/choice_gu"
         style="@style/choice_style"
+        android:layout_marginTop="324dp"
         android:contentDescription="@string/choice_gu"
-        app:srcCompat="@drawable/gu"
-        tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="339dp" />
+        app:layout_constraintEnd_toStartOf="@+id/choice_choki"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_text"
+        app:srcCompat="@drawable/gu" />
 
     <ImageButton
         android:id="@+id/choice_choki"
         style="@style/choice_style"
+        android:layout_marginTop="324dp"
         android:contentDescription="@string/choice_choki"
-        app:srcCompat="@drawable/choki"
-        tools:layout_editor_absoluteX="178dp"
-        tools:layout_editor_absoluteY="339dp" />
+        app:layout_constraintEnd_toStartOf="@+id/choice_pa"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/choice_gu"
+        app:layout_constraintTop_toBottomOf="@+id/title_text"
+        app:srcCompat="@drawable/choki" />
 
     <ImageButton
         android:id="@+id/choice_pa"
         style="@style/choice_style"
+        android:layout_marginTop="324dp"
         android:contentDescription="@string/choice_pa"
-        app:srcCompat="@drawable/pa"
-        tools:layout_editor_absoluteX="295dp"
-        tools:layout_editor_absoluteY="339dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/choice_choki"
+        app:layout_constraintTop_toBottomOf="@+id/title_text"
+        app:srcCompat="@drawable/pa" />
+
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
+        android:background="@color/text_bacground_color"
+        android:text="@string/title_text"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/title_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
