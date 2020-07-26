@@ -1,5 +1,6 @@
 package com.example.pcr
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_result.*
@@ -45,10 +46,12 @@ class ResultActivity : AppCompatActivity() {
             1 ->result_caption.setText(R.string.result_caption_win)
             2 ->result_caption.setText(R.string.result_caption_lose)
         }
-
-        //      もう一度ボタンにfinishメソッド追加
-//        TODO:intentにデータ渡して、移動に変更 or bindingで結果管理
-        again_button.setOnClickListener{finish()}
+        //      もう一度ボタンを押すとintentにデータ渡して、Mainに移動
+        again_button.setOnClickListener(){
+        val intent = Intent(this,MainActivity::class.java)
+        intent.putExtra("RESULT",it?.id)
+        startActivity(intent)
+    }
 
     }
 }

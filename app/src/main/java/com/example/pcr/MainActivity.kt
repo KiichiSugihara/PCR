@@ -10,6 +10,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
     }
     fun clickPCRButton(view: View?){
 //        ResultActivity作成
@@ -17,5 +18,4 @@ class MainActivity : AppCompatActivity() {
         intent.putExtra("MY_HAND",view?.id)
         startActivity(intent)
     }
-//    TODO:main をホーム,selectActivityを作成
 }
