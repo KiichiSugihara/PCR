@@ -23,4 +23,13 @@
         <item name="android:textSize">@dimen/title_text_size</item>
     </style>
 
+    <style name="RPSSubText">
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:textSize">@dimen/caption_text_size</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+
 </resources>
