@@ -20,7 +20,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.085" />
+        app:layout_constraintVertical_bias="0.100000024" />
 
     <ImageView
         android:id="@+id/my_result"
@@ -80,7 +80,7 @@
         android:fontFamily="@font/roboto"
         android:text="@string/result_caption"
         android:textColor="@android:color/holo_red_dark"
-        android:textSize="@dimen/cpation_text_size"
+        android:textSize="@dimen/caption_text_size"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

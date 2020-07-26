@@ -3,13 +3,13 @@
     <string name="choice_choki">Choice Choki</string>
     <string name="choice_gu">Choice Gu</string>
     <string name="choice_pa">Choice Pa</string>
-    <string name="title_text">Rock Paper Scissors</string>
-    <string name="result_title">Result</string>
+    <string name="title_text">じゃんけん</string>
+    <string name="result_title">結果</string>
     <string name="my_result">My Result</string>
     <string name="enemy_result">Enemy Result</string>
-    <string name="again_button_text">Again</string>
+    <string name="again_button_text">もう一度</string>
     <string name="background_image">background_image</string>
-    <string name="intro_text">Choice your hand</string>
+    <string name="intro_text">手を選んでね！</string>
     <string name="enemy_image">Enemy Image</string>
-    <string name="result_caption">Result Caption</string>
+    <string name="result_caption">勝利！！</string>
 </resources>

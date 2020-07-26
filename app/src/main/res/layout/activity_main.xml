@@ -62,10 +62,9 @@
         android:textSize="@dimen/title_text_size"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.138" />
+        app:layout_constraintVertical_bias="0.102" />
 
     <TextView
         android:id="@+id/intro_text"
@@ -74,7 +73,7 @@
         android:layout_marginTop="108dp"
         android:text="@string/intro_text"
         android:textColor="@android:color/white"
-        android:textSize="@dimen/cpation_text_size"
+        android:textSize="@dimen/caption_text_size"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
