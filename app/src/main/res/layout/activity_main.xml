@@ -9,56 +9,60 @@
     tools:context=".MainActivity">
 
     <ImageButton
+        android:id="@+id/choice_choki"
+        style="@style/choice_style"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/choice_choki"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/choice_pa"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/choice_gu"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.817"
+        app:srcCompat="@drawable/janken_choki" />
+
+    <ImageButton
         android:id="@+id/choice_gu"
         style="@style/choice_style"
-        android:layout_marginTop="324dp"
         android:background="@android:color/transparent"
         android:contentDescription="@string/choice_gu"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/choice_choki"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintHorizontal_chainStyle="spread"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/title_text"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.817"
         app:srcCompat="@drawable/janken_gu" />
-
-    <ImageButton
-        android:id="@+id/choice_choki"
-        style="@style/choice_style"
-        android:layout_marginTop="324dp"
-        android:background="@android:color/transparent"
-        android:contentDescription="@string/choice_choki"
-        app:layout_constraintEnd_toStartOf="@+id/choice_pa"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/choice_gu"
-        app:layout_constraintTop_toBottomOf="@+id/title_text"
-        app:srcCompat="@drawable/janken_choki" />
 
     <ImageButton
         android:id="@+id/choice_pa"
         style="@style/choice_style"
-        android:layout_marginTop="324dp"
         android:background="@android:color/transparent"
         android:contentDescription="@string/choice_pa"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/choice_choki"
-        app:layout_constraintTop_toBottomOf="@+id/title_text"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.817"
         app:srcCompat="@drawable/janken_pa" />
 
     <TextView
         android:id="@+id/title_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="88dp"
         android:background="@color/text_bacground_color"
         android:text="@string/title_text"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="@color/title_color"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-<!--TODO:タイトルスタイルの変更-->
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.138" />
+    <!--TODO:タイトルスタイルの変更-->
 <!--    TODO:captionの追加-->
 <!--    TODO:背景デザインの変更-->
     <!--    TODO: 選択肢の配置調整　指の丁度いい感-->
